@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 Includes an extension to EKEvent and EKRecurrenceRule as well as custom structures allowing you to iterate the dates of an EKEvent and its recurrence rule. It also allows you to create EKRecurrenceRule instance from a standard iCalendar RRULE.
                    DESC
 
-  s.homepage     = "https://github.com/rmaddy/RWMRecurrenceRule"
+  s.homepage     = "https://github.com/wildthink/RWMRecurrenceRule"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Rick Maddy" => "rick@maddyhome.com" }
 
@@ -24,7 +24,7 @@ Includes an extension to EKEvent and EKRecurrenceRule as well as custom structur
     'SWIFT_VERSION' => '4.1',
   }
 
-  s.source       = { :git => "https://github.com/rmaddy/RWMRecurrenceRule.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/wildthink/RWMRecurrenceRule.git", :tag => "#{s.version}" }
 
   s.source_files  = "RWMRecurrenceRule/**/*.{swift,h}"
   #s.exclude_files = "Classes/Exclude"
